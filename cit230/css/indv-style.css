@@ -19,6 +19,15 @@ header {
     height: 100px;
 
 }
+header h2 {
+  
+    margin: 3.5em 0em 0em;
+
+}
+
+header h2 a {
+    text-decoration: none;
+}
 
 header h1 {}
 
@@ -26,6 +35,10 @@ header h1 a {
     text-decoration: none;
     color: white;
 
+}
+
+aside h2{
+    margin: 0em 0em 0em;
 }
 
 h2 {
@@ -83,15 +96,6 @@ h3 {
     margin: 57px 0 0;
 }
 
-header h2 {
-    position: absolute;
-    margin: 3.5em 0em 0em;
-
-}
-
-header h2 a {
-    text-decoration: none;
-}
 
 main {
 
