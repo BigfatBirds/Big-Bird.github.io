@@ -12,7 +12,7 @@ a {
 header {
     background-color: black;
     margin: 0;
-    padding: ;
+   
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -37,7 +37,7 @@ h3 {
 }
 
 .navbar {
-    background-color: ;
+/*    background-color: ;*/
     overflow: hidden;
     height: 80px;
     border-bottom: 2px solid white;
@@ -107,7 +107,7 @@ section {
     align-items: center;
     padding: 0em 0em 0em 0em;
     margin: 1em;
-    background-color: ;
+/*    background-color: ;*/
     border-radius: 25px;
 }
 
