@@ -2,134 +2,233 @@ body {
     margin: 0;
     font-size: 28px;
     font-family: calibri;
-
+    
 }
 
-main {
-   
-    padding: 16px;
-    margin: 1em;
-  ;
-   
+a {
+    text-decoration: none
 }
 
-
-h1 {
-    padding: 0em 0em 0em 4.5em
-}
 header {
-    background-color: #fe4;
-
+    background-color: black;
+    margin: 0;
+    padding: ;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center
+    height: 100px;
+
 }
 
-.phone {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left:.5em
+header h1 {}
+
+header h1 a {
+    text-decoration: none;
+    color: white;
+
 }
 
+h2 {
+    font-size: 1em;
+}
+
+h3 {
+    text-align: center;
+}
 
 .navbar {
-    background-color: black;
+    background-color: ;
     overflow: hidden;
- 
+    height: 80px;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    justify-content: flex-end;
+
+
 }
 
 .navbar a {
-    float: left;
-    display: block;
-    color: #fe4;
+    float: right;
+
+    color: white;
     text-align: center;
-    padding: 14px 16px;
+    margin: 1.7em .2em 0em;
     text-decoration: none;
-    font-size: 20px;
+
 }
 
 .navbar a:hover {
-    background-color: rgb(2, 172, 169);
+    background-color: white;
     color: black;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .navbar ol {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0em 0em 0em;
     overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
-.navbar li:not(:last-child) {
-    float: left;
-    border-right: solid 1px #fff;
-    /* This will not give border to last li element */
+
+.divline {
+
+    border-right: thin solid white;
+    height: 23px;
+    margin: 57px 0 0;
 }
 
+header h2 {
+    position: absolute;
+    margin: 3.5em 0em 0em;
+
+}
+
+header h2 a {
+    text-decoration: none;
+}
+
+main {
+
+    padding: 16px;
+    margin: 1em;
+
+
+}
 
 section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1em;
-    margin: 2em;
-    background-color: rgb(2, 172, 169);
+    padding: 0em 0em 0em 0em;
+    margin: 1em;
+    background-color: ;
     border-radius: 25px;
 }
 
 section ul {
     list-style-type: none;
+
+
 }
 
-.squarelink {
- 
+div.squarelink {
+
     display: flex;
-    
-    justify-content: space-between;
-    
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    width: 100%;
+
 
 }
 
 .right {
-    margin-left: 10em;
-    margin-right: 1em;
+    width: 10em;
+
 }
-.left{margin-right: 2em}
-.top {margin-bottom: 2.5em}
+
+.left {
+    width: 10em
+}
+
+.top {
+    margin-bottom: 2.5em
+}
 
 
-footer{background-color: black;
-display: flex;
-position: fixed;
-            bottom: 0px;
-            width: 100%;
-        
-            text-align: center;
- width: 100%;
-overflow: hidden;}
+
+
+
+
+.sec1 {margin: 0em 0em 0em
+    ;text-align: center; }
+
+.sec1 figure{  float: right;
+  }
+
+
+.wrapper p {
+    line-height: 40px;text-align: center;
+padding-top: 1em}
+
+
+
+
+
+
+
+.sec1 figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: .6em
+}
+
+.sec1 {
+    align-self: center
+}
+
+.sec2{display: flex;
+    flex-direction: row-reverse;
+    text-align: center}
+
+.sec2 figure {
+    text-align: center;
+    font-style: italic;
+    font-size: .6em
+}
+.sec2 p{align-self:center}
+
+footer {
+    background-color: black;
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 2em;
+    text-align: center;
+
+}
 
 footer a {
     float: left;
     display: block;
-    color: #fe4;
+    color: grey;
     text-align: center;
-   
+
     text-decoration: none;
     font-size: 20px;
 }
 
-footer p {margin-right: 2em;
-padding-left: 2em;
-font-size: 13px}
-
-footer a:hover {
-    background-color: rgb(2, 172, 169);
-    color: black;
+footer p {
+    margin-right: 2em;
+    padding-left: 2em;
+    font-size: 13px
 }
 
-.terms li {padding: .5em}
+footer a:hover {
+
+    color: white;
+}
+
+.idudegirl {
+    width: 540px;
+    /* you can use % */
+    height: auto;
+    border-radius: 20%;
+}
+
+.sexyidude {
+    width: 300px;
+    /* you can use % */
+    height: auto;
+    border-radius: 20%;
+}
 
 table,
 th,
