@@ -2,46 +2,40 @@ body {
     margin: 0;
     font-size: 28px;
     font-family: calibri;
-    
+
 }
 
 a {
     text-decoration: none
 }
 
-header {
+.mainHead {
     background-color: black;
     margin: 0;
-   
+
     width: 100%;
     display: flex;
     justify-content: space-between;
     height: 100px;
 
 }
-header h2 {
-  
-    margin: 3.5em 0em 0em;
 
-}
+
 
 header h2 a {
     text-decoration: none;
 }
 
-header h1 {}
 
-header h1 a {
+
+header .logo a {
     text-decoration: none;
     color: white;
 
 }
 
-aside h2{
+.quote h2 {
     margin: 0em 0em 0em;
-}
-
-h2 {
     font-size: 1em;
 }
 
@@ -50,7 +44,7 @@ h3 {
 }
 
 .navbar {
-/*    background-color: ;*/
+    /*    background-color: ;*/
     overflow: hidden;
     height: 80px;
     border-bottom: 2px solid white;
@@ -111,15 +105,11 @@ section {
     align-items: center;
     padding: 0em 0em 0em 0em;
     margin: 1em;
-/*    background-color: ;*/
+    /*    background-color: ;*/
     border-radius: 25px;
 }
 
-section ul {
-    list-style-type: none;
 
-
-}
 
 div.squarelink {
 
@@ -150,21 +140,21 @@ div.squarelink {
 
 
 
-.sec1 {margin: 0em 0em 0em
-    ;text-align: center; }
+.sec1 {
+    margin: 0em 0em 0em;
+    text-align: center;
+}
 
-.sec1 figure{  float: right;
-  }
+.sec1 figure {
+    float: right;
+}
 
 
 .wrapper p {
-    line-height: 40px;text-align: center;
-padding-top: 1em}
-
-
-
-
-
+    line-height: 40px;
+    text-align: center;
+    padding-top: 1em
+}
 
 
 .sec1 figcaption {
@@ -177,16 +167,21 @@ padding-top: 1em}
     align-self: center
 }
 
-.sec2{display: flex;
+.sec2 {
+    display: flex;
     flex-direction: row-reverse;
-    text-align: center}
+    text-align: center
+}
 
 .sec2 figure {
     text-align: center;
     font-style: italic;
     font-size: .6em
 }
-.sec2 p{align-self:center}
+
+.sec2 p {
+    align-self: center
+}
 
 footer {
     background-color: black;
@@ -233,6 +228,156 @@ footer a:hover {
     height: auto;
     border-radius: 20%;
 }
+
+/*secondary pages*/
+
+.mainHead2 {
+    background-color: black;
+    margin: 0;
+
+    width: 100%;
+    display: flex;
+
+    height: 100px;
+    flex-direction: row;
+    align-items: center
+}
+
+.mainHead2 a {
+    color: white;
+}
+
+.navbar2 {
+    /*    background-color: ;*/
+    border-bottom: 2px solid white;
+    width: 100%;
+
+}
+
+.nav2 {
+    width: 100%; position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    text-align: center
+}
+
+.nav2 ol {
+
+    margin: 0em;
+    padding: 0em 0em 0em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.nav2 li {
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    text-align: center;
+    padding: 1em 0em 1em 0em;
+    margin: 1.5em 0em 0em 0em;
+
+
+}
+
+.nav2 a {
+
+
+    color: white;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+
+
+}
+
+.nav2 a:hover {
+    background-color: white;
+    color: black;
+<
+
+}
+
+
+
+.layoutS {
+    display: flex;
+  
+}
+
+
+.flex2{width: 85%}
+.flex2 section p{margin: 1em;
+text-align: center}
+
+
+.asideNav {
+    background-color: black;
+    height: 3200px;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-items: center;
+
+
+}
+
+.logoPos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo2 {
+    height: 0px
+}
+
+.phone {
+    font-size: .6em;
+    color: white;
+    text-align: center
+}
+
+
+.callUs {
+    position: absolute;
+    padding: .2em;
+    margin: 0em 0em 0em 8.4em;
+    font-size: 1.1em;
+    background-color: black;
+    border-radius: 0px 0px 30px 30px;
+
+}
+
+.callUs a {
+    color: white;
+    border-radius: 0px 17px 17px 17px;
+}
+
+.callUs a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 table,
 th,
