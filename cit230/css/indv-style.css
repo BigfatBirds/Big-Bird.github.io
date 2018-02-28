@@ -212,7 +212,7 @@ footer a:hover {
     align-items: center
 }
 
-.mainHead2 a {
+.mainHead a {
     color: white;
 }
 
@@ -240,11 +240,13 @@ footer a:hover {
 }
 
 .nav2 li {
+
     border-bottom: 2px solid white;
     border-top: 2px solid white;
     text-align: center;
     padding: 1em 0em 1em 0em;
     margin: 1.5em 0em 0em 0em;
+    font-size: .8em;
 }
 
 .nav2 a {
@@ -318,8 +320,25 @@ footer a:hover {
     color: black;
 }
 
+/*internal Pages*/
+
+.layoutI {display: flex;
+flex-direction: column;
+justify-content: center}
+
+.layoutI section>p {text-align: center}
+
+
+
+
+
+
+
+
+
 table,
 th,
 td {
     border: solid thin
 }
+
