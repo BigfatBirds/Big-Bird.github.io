@@ -276,7 +276,7 @@ footer a:hover {
 
 .asideNav {
     background-color: black;
-    height: 3200px;
+    height: 3000px;
     width: 15%;
     display: flex;
     flex-direction: column;
@@ -320,6 +320,9 @@ footer a:hover {
     color: black;
 }
 
+.iDudes {display: flex;flex-direction: column; align-content: }
+.iDudes figcaption{align-self: center}
+.iDudes img{height:20% }
 /*internal Pages*/
 
 .layoutI {display: flex;
