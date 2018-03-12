@@ -365,9 +365,7 @@ footer a:hover {
 
 
 @media screen and (max-width: 520px) {
-    body {
-        margin 0px;
-    }
+  
     .sec1 p{margin: 50px}
     p {
         font-size: .68em;
@@ -394,10 +392,7 @@ footer a:hover {
     footer a:first-child {
         color: white;
     }
-    body {
-        background-color:
-    }
-
+   
     .idudegirl {
         width: 305px;
         height: auto
@@ -411,7 +406,7 @@ footer a:hover {
     .mainHead {
         height: 400px;
         flex-direction: column;
-        padding:
+     
     }
 
     .divline {
