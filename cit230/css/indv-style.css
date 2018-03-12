@@ -58,7 +58,7 @@ h3 {
 .navbar a:hover {
     background-color: white;
     color: black;
-    border-radius: 20px 20px 0px 0px;
+
 }
 
 .navbar ol {
@@ -156,13 +156,21 @@ div.squarelink {
 
 footer {
     background-color: black;
-    display: flex;
+
     position: fixed;
     bottom: 0px;
     width: 100%;
     height: 2em;
-    text-align: center;
+
 }
+
+footer p {}
+
+footer .menu {
+    display: flex;
+    justify-content: center
+}
+
 
 footer a {
     float: left;
@@ -170,13 +178,16 @@ footer a {
     color: grey;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.2em;
+
+    padding: 0px 100px 0px 100px
 }
 
 footer p {
     margin-right: 2em;
     padding-left: 2em;
-    font-size: 13px
+    font-size: 13px;
+    text-align: center
 }
 
 footer a:hover {
@@ -191,7 +202,7 @@ footer a:hover {
     border-radius: 20%;
 }
 
-.sexyidude {
+.sessyidude {
     width: 300px;
     /* you can use % */
     height: auto;
@@ -320,28 +331,154 @@ footer a:hover {
     color: black;
 }
 
-.iDudes {display: flex;flex-direction: column; align-content: }
-.iDudes figcaption{align-self: center}
-.iDudes img{height:20% }
+.iDudes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+   
+}
+
+.iDudes figcaption {
+    align-self: center
+}
+
+.iDudes img {
+    height: 100%;
+    width: 50%;
+    border-radius: 90px;
+    align-self: center
+}
+
+
 /*internal Pages*/
 
-.layoutI {display: flex;
-flex-direction: column;
-justify-content: center}
+.layoutI {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
 
-.layoutI section>p {text-align: center}
-
-
-
-
-
-
+.layoutI section > p {
+    text-align: center
+}
 
 
+
+@media screen and (max-width: 520px) {
+    body {
+        margin 0px;
+    }
+    .sec1 p{margin: 50px}
+    p {
+        font-size: .68em;
+       
+    }
+    .flex3 section ol{padding: 0px;
+    font-size: .5em}
+    .logoPos {
+        font-size: .9em
+    }
+    footer {
+        background-color: black;
+        display: flex;
+        height: 90px;
+        justify-content: center;
+        align-items: center
+    }
+    footer .menu {}
+
+    footer a {
+        font-size: .8em;
+        padding: 0px 10px 0px 10px
+    }
+    footer a:first-child {
+        color: white;
+    }
+    body {
+        background-color:
+    }
+
+    .idudegirl {
+        width: 305px;
+        height: auto
+    }
+    .sessy {
+        display: none
+    }
+    .callUs {
+        display: none
+    }
+    .mainHead {
+        height: 400px;
+        flex-direction: column;
+        padding:
+    }
+
+    .divline {
+        display: none
+    }
+
+    .navbar ol {
+
+        flex-direction: column;
+        position: absolute;
+
+        top: 190px;
+        font-size: 1em;
+        width: 100%;
+
+
+    }
+    .navbar li {}
+    .navbar a {
+        width: 100%;
+        background-color: gray;
+        padding: 12px 0px 12px 0px;
+        margin: 0
+    }
+
+    .logoPos {
+        text-align: center;
+    }
+    .asideNav {
+        display: none
+    }
+
+
+    .squarelink ul li {
+        list-style-type: none;
+        text-align: center
+    }
+
+    .squarelink a {
+        color: black
+    }
+
+    .squarelink a:hover {
+        display: block;
+        color: white;
+        background-color: black
+    }
+
+    /*secondary pages*/
+    iframe {
+        width: 300px;
+        height: 160px
+    }
+
+    .flex2 {
+        padding: 0px;
+    }
+
+    ul li {
+        font-size: .6em
+    }
+    .iDudes img{width: 200px;
+    height: 100%}
+}
 
 table,
 th,
 td {
     border: solid thin
 }
-
