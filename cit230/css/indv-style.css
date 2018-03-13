@@ -506,7 +506,7 @@ footer a:hover {
         font-size: .6em
     }
     .iDudes img {
-        width: 100%;
+        width: 200%;
    height: auto;
         padding: 5px;
         margin:4px
@@ -515,6 +515,7 @@ footer a:hover {
     .layoutI h3{padding: 5px;
     margin: 2px;
     }
+    .layoutI section {text-align: center}
 }
 
 
