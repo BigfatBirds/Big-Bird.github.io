@@ -433,7 +433,7 @@ footer a:hover {
     .navbar ol {
         align-self: center;
         width: 100%;
-          padding-top: 137px
+          padding-top: 139px
 
 
 
@@ -512,6 +512,7 @@ footer a:hover {
         margin:4px
         
     }
+    .iDudes figcaption{text-align: center}
     .layoutI h3{padding: 5px;
     margin: 2px;
     }
