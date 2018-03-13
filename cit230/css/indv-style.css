@@ -47,7 +47,7 @@ h3 {
 }
 
 .navbar a {
-    float: right;
+    
 
     color: white;
     text-align: center;
@@ -173,8 +173,8 @@ footer .menu {
 
 
 footer a {
-    float: left;
-    display: block;
+    
+
     color: grey;
     text-align: center;
     text-decoration: none;
@@ -400,6 +400,7 @@ footer a:hover {
     .sessy {
         display: none
     }
+/*
     .callUs {
         display: none
     }
@@ -435,6 +436,7 @@ footer a:hover {
     .logoPos {
         text-align: center;
     }
+*/
     .asideNav {
         display: none
     }
@@ -471,6 +473,60 @@ footer a:hover {
     .iDudes img{width: 200px;
     height: 100%}
 }
+
+
+
+
+
+
+
+
+
+
+.callUs {
+        display: none
+    }
+    .mainHead {
+        height: 400px;
+        flex-direction: column;
+     
+    }
+
+    .divline {
+        display: none
+    }
+
+    .navbar li{
+
+        flex-direction:column;
+       
+
+        top: 190px;
+        font-size: 1em;
+      
+
+
+    }
+    .navbar li {display: flex;}
+    .navbar a {
+        width: 100%;
+        background-color: gray;
+        padding: 12px 0px 12px 0px;
+        margin: 0;
+    
+    }
+
+    .logoPos {
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
 
 table,
 th,
