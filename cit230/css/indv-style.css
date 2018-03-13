@@ -382,7 +382,8 @@ footer a:hover {
         font-size: .5em
     }
     .logoPos {
-        font-size: .9em
+        font-size: .9em;
+         
     }
     footer {
         background-color: black;
@@ -432,7 +433,7 @@ footer a:hover {
     .navbar ol {
         align-self: center;
         width: 100%;
-          padding-top: 110px
+          padding-top: 137px
 
 
 
@@ -506,8 +507,13 @@ footer a:hover {
     }
     .iDudes img {
         width: 200px;
-        height: 100%
+        height: 100%;
+        padding: 5px;
+        margin:4px
+        
     }
+    .layoutI h3{padding: 5px;
+    margin: 2px}
 }
 
 
