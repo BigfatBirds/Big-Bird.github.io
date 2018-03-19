@@ -36,7 +36,7 @@ h3 {
 }
 
 .navbar {
-   
+
     overflow: hidden;
     height: 80px;
     border-bottom: 2px solid white;
@@ -46,8 +46,12 @@ h3 {
     justify-content: flex-end;
 }
 
+.navbar li {
+    padding: 50px 0px 0px 0px
+}
+
 .navbar a {
-    
+
 
     color: white;
     text-align: center;
@@ -68,6 +72,7 @@ h3 {
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .divline {
@@ -173,7 +178,7 @@ footer .menu {
 
 
 footer a {
-    
+
 
     color: grey;
     text-align: center;
@@ -335,7 +340,6 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center
-   
 }
 
 .iDudes figcaption {
@@ -365,16 +369,21 @@ footer a:hover {
 
 
 @media screen and (max-width: 520px) {
-  
-    .sec1 p{margin: 50px}
+
+    .sec1 p {
+        margin: 50px
+    }
     p {
         font-size: .68em;
-       
+
     }
-    .flex3 section ol{padding: 0px;
-    font-size: .5em}
+    .flex3 section ol {
+        padding: 0px;
+        font-size: .5em
+    }
     .logoPos {
-        font-size: .9em
+        font-size: .9em;
+         
     }
     footer {
         background-color: black;
@@ -392,7 +401,7 @@ footer a:hover {
     footer a:first-child {
         color: white;
     }
-   
+
     .idudegirl {
         width: 305px;
         height: auto
@@ -402,46 +411,59 @@ footer a:hover {
     }
 
 
-.callUs {
+    .callUs {
         display: none
     }
     .mainHead {
         height: 400px;
         flex-direction: column;
-     
+
     }
 
     .divline {
-        display: none
+        display: none !important;
     }
 
 
-.navbar {display: flex;
+    .navbar {
+        display: flex;
 
-    height:100%
-}
-    .navbar ol{align-self: center;width: 100%;
-        
-  
-        
-   
+        height: 100%
+    }
+    .navbar ol {
+        align-self: center;
+        width: 100%;
+          padding-top: 139px
+
+
+
+
 
     }
-    
-.navbar li{
-text-align: center;
-width: 100%;
-display: block;
-flex-direction: column;
-margin: 0px}
+
+    .navbar li {
+        text-align: center;
+        width: 100%;
+
+        flex-direction: column;
+        margin: 0px;
+        padding: 0;
+    }
+
     .navbar a {
-       color: black;
-        background-color: white;
-       
-       
-    
+        display: block;
+        color: black;
+        background-color: grey;
+        margin: 0;
+
+
+
+
     }
-.navbar a:hover{color: white; background-color:gold}
+    .navbar a:hover {
+        color: white;
+        background-color: gold
+    }
 
     .logoPos {
         text-align: center;
@@ -453,10 +475,11 @@ margin: 0px}
         display: none
     }
 
-
+    section > ul{text-align: center;align-items: center}
+    
     .squarelink ul li {
         list-style-type: none;
-        text-align: center
+       
     }
 
     .squarelink a {
@@ -482,17 +505,67 @@ margin: 0px}
     ul li {
         font-size: .6em
     }
-    .iDudes img{width: 200px;
-    height: 100%}
+    .iDudes img {
+        width: 200%;
+   height: auto;
+        padding: 5px;
+        margin:4px
+        
+    }
+    .iDudes figcaption{text-align: center}
+    .layoutI h3{padding: 5px;
+    margin: 2px;
+    }
+    .layoutI section {text-align: center}
 }
 
 
+.show{display: none}
 
 
 
 
 
+     
 
+        aside {
+            background-color: gray;
+            padding: 1px 0px 0px 0px;
+             width: 0;
+    position:absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: padding-top .7s;
+        
+        }
+
+        .navJS{}
+        aside a {
+            text-decoration: none;
+            font-size: 25px;
+            color: white;
+            display: block;
+            transition: 0.3s;
+            text-align: center
+        }
+
+        .navJS a:hover {
+            color: grey;
+        }
+        
+        .navJS .closebtn {
+    position: absolute;
+    
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;}
+        .navbar{color: white;
+        }
+        .navbar p{font-size:2em; margin: 0;padding-right: 1em }
+    
 
 
 
