@@ -27,8 +27,13 @@ $(document).ready(function(){
         $(".show").hide();
         $(".hide").show();
     });
+    $("figure").mouseleave(function () {
+                $(this).css("background-color", "white");
+            });
+         $("figure").mouseenter(function () {
+                $(this).css("background-color", "grey" );
+            });
 });
-    
 </script>
 </head>
 

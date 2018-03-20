@@ -10,8 +10,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    
-
+  
 </head>
 
 
@@ -52,7 +51,7 @@
                 <p>We at iDudes have got your back! Not only do we offer a selection of deals, we're practically giving them away!!! Check below for our latest offers:</p>
             </section>
 
-            <section>
+            <section id="js">
                 <h3>LIMITED TIME OFFER!!!!</h3>
                 <p>Free back rubs by Isaac! $3.75</p>
                 <figure class="iDudes">
@@ -99,5 +98,17 @@ function closeNav() {
     document.getElementById("main").style.paddingTop= "0";
   
 }
+        
+document.getElementById("js").onmouseover = function() {mouseOver()};
+document.getElementById("js").onmouseout = function() {mouseOut()};
+
+function mouseOver() {
+    document.getElementById("js").style.backgroundColor = "grey";
+}
+
+function mouseOut() {
+    document.getElementById("js").style.backgroundColor = "white";
+}     
+        
 </script>
 </body>
